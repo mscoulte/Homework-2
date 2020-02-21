@@ -1,0 +1,33 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  .container{
+      background: crimson;
+      float: left;
+      margin-left: 20px;
+      width: 60%;
+  }
+
+  h2{
+      color: lightseagreen;
+  }
+
+  img{
+    float: left;
+    margin: 5px 20px 0 0;
+  }
+
+  .navbar-brand{
+    margin-left: 20px;
+  }
+  
+  
+
+  
