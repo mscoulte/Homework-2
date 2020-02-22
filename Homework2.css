@@ -12,7 +12,7 @@ html {
   .container{
       background-color: white;
       float: left;
-      margin: 20px;
+      margin-left: 20px;
       width: 60%;
   }
 
@@ -35,15 +35,32 @@ html {
   }
   body{
     background-color: rgb(66, 55, 221);
+
+  }
+  .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .navbar-brand{
-   
-    background-color:;
+    background-color:chocolate;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family:'Gravitas One';
+    margin-left: 20px;
+    
+    
     
   }
   .form-group{
     color: black;
+  }
+
+  .card-img-overlay{
+    position: relative;
+    top: auto;
+    bottom: 0px;
+  }
+
   }
 
   @media screen and (max-width: 768px){

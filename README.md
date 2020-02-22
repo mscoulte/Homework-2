@@ -7,4 +7,6 @@ Created HTML/CSS Layout to match Student Portfolio images.
 -Utilized Bootstrap and Custom CSS 
 -Incorporated responsive layout and images.
 -Used minimal media queries.
+-Set navbar-brand background color and got it to encapsulate the full height of the navbar.
+
 
