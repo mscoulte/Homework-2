@@ -40,7 +40,7 @@ html {
    
     background-color:;
     font-family:'Gravitas One';
-    padding: 20px;
+    
   }
   .form-group{
     color: black;
@@ -58,8 +58,8 @@ html {
   }
 
   @media screen and (max-width: 576px){
-  .navbar-brand-sm{
-  text-align: center;
+  .navbar-brand{
+  font-size: smaller;
   }
 
     
