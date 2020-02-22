@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Gravitas+One&display=swap');
 
 html {
     box-sizing: border-box;
@@ -9,14 +10,15 @@ html {
   }
 
   .container{
-      background: crimson;
+      background-color: white;
       float: left;
-      margin-left: 20px;
+      margin: 20px;
       width: 60%;
   }
 
   h2{
-      color: lightseagreen;
+      color:black;
+      font-family:'Gravitas One';
   }
 
   img{
@@ -24,9 +26,46 @@ html {
     margin: 5px 20px 0 0;
   }
 
-  .navbar-brand{
-    margin-left: 20px;
+ li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
+  
+  p{
+    color: black;
+  }
+  body{
+    background-color: rgb(66, 55, 221);
+  }
+  .navbar-brand{
+   
+    background-color:;
+    font-family:'Gravitas One';
+    padding: 20px;
+  }
+  .form-group{
+    color: black;
+  }
+
+  @media screen and (max-width: 768px){
+    
+  .container{
+    width: 90%;
+    padding: 20px; 
+    }
+ 
+  
+
+  }
+
+  @media screen and (max-width: 576px){
+  .navbar-brand-sm{
+  text-align: center;
+  }
+
+    
+  }
+
+  
   
   
 
