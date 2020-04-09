@@ -10,15 +10,19 @@ html {
   }
 
   .container{
-      background-color: white;
+      background-color: rgb(19, 87, 114,0.6);
       float: left;
       margin-left: 20px;
       width: 60%;
+      
   }
 
   h2{
-      color:black;
+      color:white;
       font-family:'Gravitas One';
+  }
+  h4{
+    color: white;
   }
 
   img{
@@ -35,9 +39,13 @@ html {
   }
   body{
     background-color: rgb(66, 55, 221);
+    background-image: url(./Assets/backdrop.PNG);
+    background-size: cover;
+    
     position: relative;
     display: flex;
     flex-direction: column;
+    
 
   }
   .footer {
@@ -45,6 +53,7 @@ html {
     margin-top: 10px;
     width: 100%;
     margin-top: auto;
+   
   }
   .navbar{
     padding-top: 0;
@@ -55,23 +64,25 @@ html {
     padding-left: 10px;
     padding-right: 10px;
     font-family:'Gravitas One';
-    margin-left: 
     
     
+
     
   }
-  .form-group{
-    color: black;
-  }
+  
 
   .card-img-overlay{
     position: relative;
     top: auto;
     bottom: 0px;
   }
+  .content{
+    color: white;
+  }
 
   #sticky-footer {
     flex-shrink: none;
+
 
   @media screen and (max-width: 768px){
     
