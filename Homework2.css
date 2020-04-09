@@ -35,18 +35,27 @@ html {
   }
   body{
     background-color: rgb(66, 55, 221);
+    position: relative;
+    display: flex;
+    flex-direction: column;
 
+  }
+  .footer {
+    background-color: black;
+    margin-top: 10px;
+    width: 100%;
+    margin-top: auto;
   }
   .navbar{
     padding-top: 0;
     padding-bottom: 0;
   }
   .navbar-brand{
-    background-color:chocolate;
+   
     padding-left: 10px;
     padding-right: 10px;
     font-family:'Gravitas One';
-    margin-left: 20px;
+    margin-left: 
     
     
     
@@ -61,7 +70,8 @@ html {
     bottom: 0px;
   }
 
-  }
+  #sticky-footer {
+    flex-shrink: none;
 
   @media screen and (max-width: 768px){
     
